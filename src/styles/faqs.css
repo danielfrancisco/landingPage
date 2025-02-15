@@ -11,6 +11,8 @@
   top: -1900px;
 }
 .faqs h1 {
+  position: relative;
+  left: 600px;
   font-family: Raleway;
   font-weight: 800;
   font-size: 72px;
@@ -26,6 +28,8 @@
   height: 644;
   gap: 16px;
   padding: 24px;
+  position: relative;
+  left: 600px;
 }
 .faqs .wrapper-faqs p {
   font-family: Inter;

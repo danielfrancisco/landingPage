@@ -11,9 +11,11 @@ background-color: #004622;
 position: relative;
 top: -1900px;
 
-;
+
 
 h1{
+    position: relative;
+    left: 600px;
     font-family: Raleway;
 font-weight: 800;
 font-size: 72px;
@@ -30,6 +32,8 @@ color: white;
 height: 644;
 gap: 16px;
 padding: 24px;
+position: relative;
+    left: 600px;
 
    p{
     font-family: Inter;
