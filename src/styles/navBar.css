@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Inter");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  max-height: 103.78px;
+  max-height: 103.78px;
+  padding: 16px 180px 16px 180px;
+  gap: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+}
+.navContainer .logo {
+  width: 206px;
+  height: 71.78px;
+}
+.navContainer .linksContainer {
+  width: auto;
+  display: flex;
+  height: auto;
+  gap: 32px;
+  opacity: 0px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.navContainer .linksContainer a {
+  height: 19px;
+  line-height: 19.36px;
+  color: #007639;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19.36px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.navContainer .contact {
+  display: flex;
+  gap: 27px;
+  height: 54px;
+  width: 187px;
+}
+.navContainer .contact button {
+  height: auto;
+  display: flex;
+  gap: 8px;
+  width: auto;
+  border-radius: 40px;
+  padding-top: 18px;
+  padding-right: 32px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  color: white;
+  background: #00A650;
+  border: none;
+  outline: none;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14.52px;
+}
+.navContainer .contact button .ws-logo {
+  height: 17.5px;
+  width: 17.5px;
+  left: 1.25px;
+  position: relative;
+  top: -1.25px;
+}
+
+.drop-bar {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .navContainer {
+    max-width: 1440px;
+    width: 100%;
+    height: 103.7814483643;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 72px;
+    padding-bottom: 16px;
+    padding-left: 72px;
+  }
+}
+@media only screen and (max-width: 728px) {
+  .drop-bar {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  .navContainer {
+    width: 100%;
+    max-width: 728px;
+    height: auto;
+    max-height: 103.7814483643px;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+  }
+  .linksContainer {
+    display: none;
+  }
+  .linksContainer a {
+    display: none;
+  }
+}/*# sourceMappingURL=navBar.css.map */

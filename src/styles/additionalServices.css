@@ -1,0 +1,190 @@
+.wrapper-services {
+  width: 1, 920px;
+  height: auto;
+  max-height: 1460px;
+  padding: 140px 180px 140px 180px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+  opacity: 0px;
+  position: relative;
+  top: -1900px;
+}
+.wrapper-services .content {
+  width: 805px;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 24px;
+  opacity: 0px;
+}
+.wrapper-services .content h1 {
+  font-family: Raleway;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 70.44px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #004622;
+}
+.wrapper-services .content p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.wrapper-services .carousel-services {
+  width: 100%;
+  height: 100%;
+  padding: 0px 0px 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+  opacity: 0px;
+}
+.wrapper-services .carousel-services .content {
+  width: Fixed 369px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  opacity: 0px;
+}
+.wrapper-services .carousel-services .content h2 {
+  font-family: Raleway;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 65.74px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.wrapper-services .carousel-services .content p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.wrapper-services .carousel-services .content button {
+  width: auto;
+  max-width: 276px;
+  height: auto;
+  max-height: 72px;
+  padding: 24px 48px 24px 48px;
+  gap: 8px;
+  border-radius: 40px;
+  opacity: 0px;
+  border: none;
+  background-color: #00A650;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: white;
+}
+.wrapper-services .carousel-services .carousel {
+  width: 100%;
+  height: 100%;
+  gap: 56px;
+  opacity: 0px;
+}
+.wrapper-services .cta-banner {
+  max-width: 1560px;
+  max-height: 322px;
+  width: 100%;
+  height: auto;
+  padding: 32px 40px 32px 40px;
+  display: flex;
+  gap: 40px;
+  border-radius: 8px;
+  background: url("../images/cta-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0px;
+}
+.wrapper-services .frame241 {
+  width: 774px;
+  height: auto;
+  max-height: 146px;
+  display: flex;
+  gap: 24px;
+  opacity: 0px;
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 4px;
+}
+.wrapper-services .frame241 img {
+  position: relative;
+}
+.wrapper-services .frame241 .frame57 {
+  width: 654px;
+  height: auto;
+  max-height: 146px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  opacity: 0px;
+}
+.wrapper-services .frame241 .frame57 h1 {
+  font-family: Raleway;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 65.74px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #FECE00;
+  position: relative;
+  top: -90px;
+}
+.wrapper-services .frame241 p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: white;
+  position: relative;
+  top: -90px;
+}
+.wrapper-services .frame242 {
+  width: auto;
+  max-width: 276px;
+  height: auto;
+  max-height: 72px;
+  padding: 24px 48px 24px 48px;
+  display: flex;
+  gap: 8px;
+  border-radius: 40px;
+  opacity: 0px;
+  border: none;
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  background-color: #00A650;
+}/*# sourceMappingURL=additionalServices.css.map */

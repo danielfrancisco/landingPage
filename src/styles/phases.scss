@@ -1,0 +1,79 @@
+
+.wrapper-phase{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 96px 180px 96px 180px;
+    gap: 56px;
+    opacity: 0px;
+    position: relative;
+    top: -1800px;
+    .content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 24px;
+        justify-content: center;
+        opacity: 0px;
+        h1{
+           width: 790px;
+           height: 150px;
+           gap: 0px;
+           opacity: 0px;
+           font-family: Raleway;
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 75.14px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+            color: #004622;
+
+        }
+
+        p{
+            width: 790px;
+            height: 64px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+
+    }
+
+    .phases{
+        width: 100%;
+        height: auto;
+        gap: 16px;
+        display: flex;
+        opacity: 0px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        
+       
+    }
+
+    .cardPhase{
+        width: 100%;
+        height: auto;
+        padding: 0px 16px 0px 16px;
+        gap: 56px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        border-radius: 16px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+
+}

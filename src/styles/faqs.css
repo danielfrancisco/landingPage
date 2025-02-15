@@ -1,0 +1,37 @@
+.faqs {
+  width: 100%;
+  height: 1066;
+  gap: 40px;
+  padding-top: 96px;
+  padding-right: 180px;
+  padding-bottom: 200px;
+  padding-left: 180px;
+  background-color: #004622;
+  position: relative;
+  top: -1900px;
+}
+.faqs h1 {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 86.4px;
+  letter-spacing: 0%;
+  color: white;
+}
+.faqs .wrapper-faqs {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 1382;
+  height: 644;
+  gap: 16px;
+  padding: 24px;
+}
+.faqs .wrapper-faqs p {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+  color: white;
+}/*# sourceMappingURL=faqs.css.map */

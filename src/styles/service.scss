@@ -1,0 +1,117 @@
+.wrapper-service{
+    width: Fixed (1,920px)px;
+    height: auto;
+    padding: 96px 180px 96px 180px;
+    gap: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    opacity: 0px;
+    justify-content: center;
+    position: relative;
+    top: -1800px;
+    
+}
+
+.content-service{
+    width: 100%;
+    height: auto;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    h1{
+        font-family: Raleway;
+font-size: 64px;
+font-weight: 800;
+line-height: 75.14px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+  color: #004622;
+    }
+
+}
+
+.grid-service{
+    width: 100%;
+    height: auto;
+    display: flex;
+flex-wrap: wrap;
+gap: 16px;
+opacity: 0px;
+   .row1{
+    width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+gap: 16px;
+opacity: 0px;
+
+   }
+
+   .cardService1{
+    width: 566px;
+    height: 640px;
+    padding: 40px 32px 40px 32px;
+    display: flex;
+    gap: 24px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    
+    
+   }
+
+   .cardService2{
+    width: 100%;
+height: 640px;
+padding: 40px 32px 40px 32px;
+display: flex;
+gap: 24px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+    
+   }
+
+   .row2{
+    width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+gap: 16px;
+opacity: 0px;
+
+   }
+
+   .cardService3{
+    width: 100%;
+height: 580px;
+padding: 32px 0px 0px 0px;
+gap: 16px;
+border-radius: 16px 0px 0px 0px;
+opacity: 0px;
+
+   }
+
+   .cardService4{
+    width: 100%;
+height: auto;
+padding: 40px 32px 40px 32px;
+gap: 24px;
+border-radius: 16px 0px 0px 0px;
+opacity: 0px;
+
+   }
+
+   .cardService5{
+    width: 100%;
+height: auto;
+padding: 40px 32px 40px 32px;
+gap: 24px;
+border-radius: 16px 0px 0px 0px;
+opacity: 0px;
+
+   }
+}
+

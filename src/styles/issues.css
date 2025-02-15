@@ -1,0 +1,307 @@
+.wrapper-issues {
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  display: flex;
+  padding: 96px 72px 96px 72px;
+  gap: 40px;
+  flex-direction: column;
+  opacity: 0px;
+  position: relative;
+  top: -300px;
+}
+
+.issues-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 24px;
+  opacity: 0px;
+  flex-direction: column;
+}
+.issues-content .text1 {
+  font-family: Raleway;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 65.74px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #004622;
+}
+.issues-content .text2 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.89px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.issues-content .text3 {
+  width: 670px;
+  height: 58px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 29.05px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgba(35, 35, 35, 0.6980392157);
+}
+
+.galery-issues {
+  width: 100%;
+  height: auto;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.galery-issues .row-issues-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  opacity: 0px;
+}
+.galery-issues .row-issues-1 .card-issues1 {
+  width: 100%;
+  max-width: 421.33px;
+  height: 568px;
+  padding: 34.09px 10px 47.72px 27.27px;
+  display: flex;
+  gap: 20.45px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+.galery-issues .row-issues-1 .card-issues2 {
+  width: 100%;
+  max-width: 421.33px;
+  height: 482px;
+  padding: 34.09px 10px 47.72px 27.27px;
+  display: flex;
+  gap: 20.45px;
+  border-radius: 8px;
+  opacity: 0px;
+  margin-top: 90px;
+}
+.galery-issues .row-issues-1 .card-issues3 {
+  width: 100%;
+  max-width: 421.33px;
+  height: 568px;
+  padding: 34.09px 10px 47.72px 27.27px;
+  display: flex;
+  gap: 20.45px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+.galery-issues .row-issues-1 .card1Text {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33.89px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  position: relative;
+  left: -400px;
+  top: 40px;
+}
+.galery-issues .row-issues-2 {
+  width: 1, 210px;
+  height: auto;
+  display: flex;
+  gap: 16px;
+  opacity: 0px;
+}
+.galery-issues .row-issues-2 .card2-issues1 {
+  width: 369px;
+  height: 444px;
+  padding: 40px 32px 56px 32px;
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  opacity: 0px;
+}
+.galery-issues .row-issues-2 .card2-issues2 {
+  width: 100%;
+  height: auto;
+  padding: 40px 32px 56px 32px;
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  opacity: 0px;
+}
+.galery-issues .row-issues-2 .card2-issues3 {
+  width: 100%;
+  height: auto;
+  padding: 40px 32px 32px 32px;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-radius: 8px;
+  display: flex;
+  opacity: 0px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .wrapper-issues {
+    max-width: 1440px;
+    gap: 40px;
+    padding-top: 96px;
+    padding-right: 72px;
+    padding-bottom: 96px;
+    padding-left: 72px;
+  }
+  .issues-content {
+    width: 1296px;
+    width: 100%;
+    height: auto;
+    height: 206px;
+    gap: 24px;
+  }
+  .issues-content .text1 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 65.74px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .issues-content .text2 {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33.89px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .issues-content .text3 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .galery-issues {
+    max-width: 1296px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill;
+    height: auto;
+    max-height: 568;
+    gap: 16px;
+  }
+  .galery-issues .row-issues-1 {
+    max-width: 1296px;
+    max-height: 568px;
+    display: flex;
+    gap: 16px;
+  }
+  .galery-issues .row-issues-1 .card-issues1 {
+    width: 100%;
+    max-width: 421.3333435059px;
+    height: 568px;
+    gap: 20.45px;
+    padding-top: 34.09px;
+    padding-right: 27.27px;
+    padding-bottom: 47.72px;
+    padding-left: 27.27px;
+    border-radius: 8px;
+  }
+  .galery-issues .row-issues-1 .card-issues2 {
+    width: 100%;
+    max-width: 421.3333129883px;
+    height: 482px;
+    gap: 20.45px;
+    padding-top: 34.09px;
+    padding-right: 27.27px;
+    padding-bottom: 47.72px;
+    padding-left: 27.27px;
+    border-radius: 8px;
+  }
+  .galery-issues .row-issues-2 {
+    width: 1210px;
+    height: auto;
+    display: flex;
+    max-height: 544;
+    gap: 16px;
+  }
+}
+@media only screen and (max-width: 728px) {
+  .wrapper-issues {
+    max-width: 728px;
+    gap: 40px;
+    padding-top: 96px;
+    padding-right: 48px;
+    padding-bottom: 96px;
+    padding-left: 48px;
+  }
+  .issues-content {
+    width: 1296px;
+    width: 100%;
+    height: auto;
+    height: 206px;
+    gap: 24px;
+  }
+  .issues-content .text1 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 65.74px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .issues-content .text2 {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33.89px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .issues-content .text3 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .galery-issues {
+    width: 100%;
+    max-width: 632px;
+    height: auto;
+    height: 3079px;
+    gap: 16px;
+  }
+  .galery-issues .row-issues-1 {
+    width: 100%;
+    max-width: 632px;
+    height: auto;
+    max-height: 1552px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .galery-issues .row-issues-2 {
+    width: 100%;
+    max-width: 632px;
+    height: 1511;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=issues.css.map */

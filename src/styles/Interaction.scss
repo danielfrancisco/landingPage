@@ -1,0 +1,177 @@
+
+.wrapper{
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    max-height: 492px;
+    position: relative;
+    top: -350px;
+    padding: 0px 72px 56px 72px;
+    gap: 40px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titles{
+    width: 100%;
+    max-width: 1040px;
+    height: auto;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-self: center;
+    opacity: 0px;
+
+    
+    .titlesHead{
+        font-size: 60px;
+        position: relative;
+        
+        color: #004622;
+        font-family: Raleway;
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+        font-weight: 800;
+        line-height: 70.44px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+
+    .paragraph1{
+        position: relative;
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 33.89px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+    
+    .wrapper-visto{
+        width: 720px;
+        height: auto;
+        display: flex;
+        gap: 8px;
+        opacity: 0px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0px;
+
+    }
+
+    .visto{
+        position: relative;
+        
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+        text-align: center;
+        height: auto;
+        width: auto;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        display: flex;
+        gap: 16px;
+        opacity: 0px;
+        span{
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+    }
+
+    
+}
+
+.wrapper-btns{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+    align-self: center;
+    .residentialBtn{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 32px 48px 32px 48px;
+        gap: 8px;
+        border-radius: 48px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        background-color: #00A650;
+        color: white;
+        border: none;
+        
+    }
+
+    .negociosBtn{
+        display: flex;
+        width: auto;
+        height:auto;
+        padding: 32px 48px 32px 48px;
+        gap: 8px;
+        border-radius: 48px;
+        border: 1px #232323 solid;
+        opacity: 0px;
+        background: transparent;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    
+}
+
+@media only screen and (max-width: 1440px) {
+    .wrapper{
+        max-width: 1440px;
+        
+    }
+
+    .titlesHead{
+        font-size: 56px;
+        color: black;
+    }
+
+}
+
+@media only screen and (max-width: 728px) {
+    .wrapper{
+        max-width: 728px;
+        
+    }
+
+    .wrapper-btns{
+        position: relative;
+        margin-top: 200px;
+    }
+
+
+}
