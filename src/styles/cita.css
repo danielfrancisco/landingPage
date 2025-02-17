@@ -12,7 +12,7 @@
   background: transparent;
   border: none;
   position: relative;
-  top: -1000px;
+  top: -1076px;
   width: 100%;
   height: 199px;
   gap: 0px;
@@ -113,4 +113,133 @@
   color: white;
   position: relative;
   top: -100px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .wrapper-cta {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    max-height: 969px;
+    padding-top: 96px;
+  }
+  .wrapper-cta .barracta-1 {
+    position: relative;
+    top: -770px;
+  }
+  .wrapper-cta .barracta-2 {
+    top: -250px;
+  }
+  .imageCta {
+    width: 100%;
+    max-width: 1440px;
+    height: 792px;
+    display: flex;
+    gap: 4px;
+    padding: 72px;
+  }
+  .contentCta {
+    width: 718px;
+    max-height: 352px;
+    height: auto;
+    display: flex;
+    gap: 32px;
+  }
+  .contentCta button {
+    width: auto;
+    height: auto;
+    max-width: 276px;
+    max-height: 72px;
+    gap: 8px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border-radius: 40px;
+  }
+  .infoCta {
+    width: 100%;
+    max-width: 718px;
+    max-height: 248px;
+    display: flex;
+    height: auto;
+    gap: 16px;
+  }
+  .infoCta h1 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56.35px;
+    letter-spacing: 0%;
+  }
+  .infoCta p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+  }
+}
+@media only screen and (max-width: 728px) {
+  .wrapper-cta {
+    width: 100%;
+    max-width: 728px;
+    max-height: 895.3277587891px;
+    height: auto;
+    padding-top: 96px;
+  }
+  .wrapper-cta .barracta-1 {
+    top: -675px;
+  }
+  .imageCta {
+    width: 100%;
+    max-width: 728px;
+    height: 792px;
+    gap: 4px;
+    padding-top: 72px;
+    padding-right: 48px;
+    padding-bottom: 72px;
+    padding-left: 48px;
+  }
+  .contentCta {
+    width: 100%;
+    max-width: 632px;
+    height: auto;
+    max-height: 352;
+    position: relative;
+    left: -300px;
+    gap: 32px;
+  }
+  .contentCta button {
+    max-width: 276px;
+    width: auto;
+    height: auto;
+    max-height: 72;
+    gap: 8px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border-radius: 40px;
+  }
+  .infoCta {
+    width: 100%;
+    max-width: 632px;
+    height: 248;
+    gap: 16px;
+  }
+  .infoCta h1 {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56.35px;
+    letter-spacing: 0%;
+  }
+  .infoCta p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+  }
 }/*# sourceMappingURL=cita.css.map */

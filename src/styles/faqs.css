@@ -19,13 +19,15 @@
   line-height: 86.4px;
   letter-spacing: 0%;
   color: white;
+  width: 757px;
 }
 .faqs .wrapper-faqs {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 1382;
-  height: 644;
+  width: 1382px;
+  max-height: 644;
+  height: auto;
   gap: 16px;
   padding: 24px;
   position: relative;

@@ -13,7 +13,7 @@ function Impact() {
             <img src={ImpactCasa}/>
             <div className="content-impactChild">
                 <h1>El verdadero impacto de una infestación de termitas</h1>
-            </div>
+            
 
             <div className="frame228">
                 <div className="frame227">
@@ -30,6 +30,8 @@ function Impact() {
                         <p className="para3">Todo esto ocurre sin importar el tipo de estructura (vigas, uniones y más). El riesgo incrementa con estructuras de madera, dado que las termitas pueden destruirla en cuestión de días.</p>
                     </div>
                 </div>
+            </div>
+
             </div>
             <img className='termita' src="https://s3-alpha-sig.figma.com/img/f9c1/bb3a/d5ce96a3d78ba8459fe1d8100dcd23db?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dUy4qn2eY~iZPAcBX7MqSH4jEQBRyBv04OxY602NXLex14cFOITb5E1uarReFrzL5rRws1NPQLnXOAGf31pHEa9~tiAGEVD39aDvDRonbzZjC7bqfrQet0MXDVNYDWGP0HT9GLcqj0rVeVPsSAWEsI5Qw5u27TfF5Is8hQnwVGWHDbqGHEdSUdbpBJnB74kcs8DDbGHSXPKTKHY1WSYmmHvhIpTiL5uNFrstT-UaUldP7Z5UfJMFZQkh3wZsWh0zUEQfBFJZatA7vp3UxonxOswhAMNZfVoiI4~lbaroFPLFhYG3lA0MkwhPnwm9ov8pG-CQQGosDSePCTHOcuYv0A__"/>
         </div>

@@ -251,6 +251,19 @@ border-radius: 8px;
 
             }
 
+            .card-issues3{
+                width: 100%;
+                max-width: 421.33331298828125px;
+height: 568px;
+gap: 20.45px;
+padding-top: 34.09px;
+padding-right: 27.27px;
+padding-bottom: 47.72px;
+padding-left: 27.27px;
+border-radius: 8px;
+
+            }
+
         }
         
         .row-issues-2{
@@ -259,6 +272,44 @@ border-radius: 8px;
             display: flex;
 max-height: 544;
 gap: 16px;
+
+.card2-issues1{
+    width: 369px;
+    height: 444px;
+    gap: 24px;
+    padding-top: 40px;
+    padding-right: 32px;
+    padding-bottom: 56px;
+    padding-left: 32px;
+    border-radius: 8px;
+    
+}
+
+.card2-issues2{
+    width: 100%;
+    max-width: 404.5px;
+height: 491px;
+gap: 24px;
+padding-top: 40px;
+padding-right: 32px;
+padding-bottom: 56px;
+padding-left: 32px;
+border-radius: 8px;
+
+}
+
+.card2-issues3{
+    width: 100%;
+    max-width: 404.5px;
+height: 544px;
+gap: 24px;
+padding-top: 40px;
+padding-right: 32px;
+padding-bottom: 32px;
+padding-left: 32px;
+border-radius: 8px;
+
+}
 
         }
 
@@ -319,6 +370,9 @@ text-align: center;
         width: 100%;
         max-width: 632px;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
        height: 3079px;
        gap: 16px;
        .row-issues-1{
@@ -328,20 +382,99 @@ text-align: center;
         max-height: 1552px;
         gap: 16px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         
+        .card-issues1{
+            width: 100%;
+            max-width: 632px;
+            height: 520px;
+            gap: 20.45px;
+            padding-top: 34.09px;
+            padding-right: 27.27px;
+            padding-bottom: 47.72px;
+            padding-left: 27.27px;
+            border-radius: 8px;
+
+        }
+
+        .card-issues2{
+            width: 100%;
+            max-width: 632px;
+            height: 480px;
+            gap: 20.45px;
+            padding-top: 34.09px;
+            padding-right: 27.27px;
+            padding-bottom: 47.72px;
+            padding-left: 27.27px;
+            border-radius: 8px;
+            
+
+        }
+
+        .card-issues3{
+            width: 100%;
+            max-width: 632px;
+            height: 520px;
+            gap: 20.45px;
+            padding-top: 34.09px;
+            padding-right: 27.27px;
+            padding-bottom: 47.72px;
+            padding-left: 27.27px;
+            border-radius: 8px;
+            
+            
+
+        }
         
        }
 
        .row-issues-2{
         width: 100%;
         max-width: 632px;
-        height: 1511;
+        height: 1511px;
         gap: 16px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
+        .card2-issues1{
+            width: 100%;
+            width: 632px;
+            height: 444px;
+gap: 24px;
+padding-top: 40px;
+padding-right: 32px;
+padding-bottom: 56px;
+padding-left: 32px;
+border-radius: 8px;
+
+        }
+
+        .card2-issues2{
+            width: 100%;
+            max-width: 632px;
+height: 491px;
+gap: 24px;
+padding-top: 40px;
+padding-right: 32px;
+padding-bottom: 56px;
+padding-left: 32px;
+border-radius: 8px;
+
+        }
+        .card2-issues3{
+            width: 100%;
+            max-width: 632;
+height: 544px;
+gap: 24px;
+padding-top: 40px;
+padding-right: 32px;
+padding-bottom: 32px;
+padding-left: 32px;
+border-radius: 8px;
+
+
+        }
        }
     }
 

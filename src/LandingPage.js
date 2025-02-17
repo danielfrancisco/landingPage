@@ -14,6 +14,7 @@ import Faqs from "./faqs";
 import "./styles/home.scss"
 
 function App() {
+  console.log(`Width: ${window.innerWidth}`)
   return (
     <>
       <div className="landing-page">
